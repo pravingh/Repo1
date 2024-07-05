@@ -257,6 +257,7 @@ def generate_instructions(repo_url):
 
     return final_resposne
 
+
 def my_app(creds, app_port_param):
 
     vertexai.init(project="gsh002", location="us-central1", credentials=creds)
@@ -265,7 +266,7 @@ def my_app(creds, app_port_param):
         
         gr.Markdown(
         """
-        # Gemini AI Powered Code Navigator - Repository Alchemist!
+        # Repository Alchemist - Gemini AI Powered Code Navigator!
 
         """
         )
